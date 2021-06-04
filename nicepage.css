@@ -12254,45 +12254,6 @@ section.u-image,
   pointer-events: auto;
   pointer-events: initial;
 }
-.u-sticky {
-  position: fixed;
-  top: 0;
-  transition: background-color 250ms ease;
-}
-@supports (position: sticky) {
-  .u-sticky {
-    position: sticky;
-  }
-}
-@supports (position: -webkit-sticky) {
-  .u-sticky {
-    position: -webkit-sticky;
-  }
-}
-.u-overlap .u-header {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-.u-sticky,
-.u-overlap .u-header {
-  z-index: 20;
-}
-.u-overlap .u-header.u-sticky {
-  position: fixed;
-}
-.u-overlap.u-overlap-transparent .u-header {
-  background-color: transparent !important;
-  background-image: none !important;
-}
-.u-overlap.u-offcanvas-opened .u-header.u-sticky {
-  z-index: auto;
-  position: absolute !important;
-}
-.u-overlap.u-offcanvas-opened .u-header.u-sticky + section {
-  z-index: -1;
-}
 .u-stick-footer {
   display: flex;
   flex-direction: column;
@@ -12388,6 +12349,45 @@ section.u-image,
     border-left: 0 !important;
     border-right: 0 !important;
   }
+}
+.u-header.u-sticky {
+  position: fixed;
+  top: 0;
+  transition: background-color 250ms ease;
+}
+@supports (position: sticky) {
+  .u-header.u-sticky {
+    position: sticky;
+  }
+}
+@supports (position: -webkit-sticky) {
+  .u-header.u-sticky {
+    position: -webkit-sticky;
+  }
+}
+.u-overlap .u-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.u-header.u-sticky,
+.u-overlap .u-header {
+  z-index: 20;
+}
+.u-overlap .u-header.u-sticky {
+  position: fixed;
+}
+.u-overlap.u-overlap-transparent .u-header {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+.u-overlap.u-offcanvas-opened .u-header.u-sticky {
+  z-index: auto;
+  position: absolute !important;
+}
+.u-overlap.u-offcanvas-opened .u-header.u-sticky + section {
+  z-index: -1;
 }
 .u-sheet.u-content-layout {
   display: flex;
@@ -18640,6 +18640,12 @@ a.pswp__share--download:hover {
 }
 .u-section-row {
   position: relative;
+}
+.u-section-row.u-sticky-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 .u-carousel {
   position: relative;
@@ -33844,11 +33850,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 95px;
+  min-height: 109px;
 }
 
 .u-header .u-image-1 {
-  margin: 18px auto 0;
+  margin: 24px auto 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -33858,30 +33864,30 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -47px auto 0 -51px;
+  margin: -47px auto 0 0;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1rem;
-  font-family: Horsemen;
+  font-size: 1.875rem;
+  font-family: Iceberg;
   background-image: none;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1rem;
-  font-family: Horsemen;
+  font-size: 2.25rem;
+  font-family: Iceberg;
   width: 120px;
   height: 130px;
-  margin: 47px auto 0;
+  margin: 61px auto 0;
 }
 
 .u-header .u-social-icons-1 {
   white-space: nowrap;
   height: 34px;
   min-height: 16px;
-  width: 165px;
+  width: 166px;
   min-width: 94px;
-  margin: -22px 0 18px auto;
+  margin: -42px 0 32px auto;
 }
 
 .u-header .u-icon-1 {
@@ -33901,27 +33907,36 @@ a.u-link.u-text-hover-grey-90:hover {
   color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 109px;
+  }
+
   .u-header .u-menu-1 {
     margin-top: -47px;
-    margin-left: -51px;
   }
 
   .u-header .u-social-icons-1 {
     width: 166px;
-    margin-top: -34px;
-    margin-right: -1px;
-    margin-bottom: 29px;
+    margin-right: 0;
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 108px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 25px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -48px;
-    margin-left: 0;
+    width: auto;
+    margin-top: -52px;
   }
 
   .u-header .u-social-icons-1 {
-    margin-right: 0;
-    margin-bottom: 35px;
+    margin-top: -40px;
+    margin-bottom: 38px;
   }
 
   .u-header .u-icon-1 {
@@ -33948,15 +33963,22 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -48px;
-    width: auto;
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 116px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 30px;
+  }
+
   .u-header .u-social-icons-1 {
     height: 21px;
-    width: 114px;
-    margin-top: -21px;
-    margin-bottom: 34px;
+    width: 113px;
+    margin-top: -34px;
+    margin-bottom: 46px;
   }
 }
 .u-footer .u-sheet-1 {

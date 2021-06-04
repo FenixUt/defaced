@@ -1,5 +1,5 @@
 .u-section-6-1 {
-  background-image: url("images/Defaced_post_IMG2_mar__FBcuadrado1.png");
+  background-image: url("images/AGRUPACION-FONDO.PNG");
   background-position: 50% 50%;
 }
 
@@ -116,7 +116,7 @@
     margin-top: 58px;
   }
 }.u-section-6-2 {
-  background-image: url("images/Defaced_post_IMG2_mar__FBcuadrado1.png");
+  background-image: url("images/AGRUPACION-FONDO.PNG");
   background-position: 50% 50%;
 }
 
@@ -320,7 +320,7 @@
 }
 
 .u-section-2 .u-group-1 {
-  min-height: 445px;
+  min-height: 451px;
   width: 600px;
   margin: -585px auto 60px;
 }
@@ -330,8 +330,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-family: Horsemen;
-  font-size: 1.5rem;
+  font-family: Iceberg;
   margin: 0;
 }
 
@@ -344,9 +343,9 @@
 .u-section-2 .u-btn-1 {
   border-style: solid;
   text-transform: uppercase;
-  font-weight: 700;
-  font-family: Horsemen;
   font-size: 0.75rem;
+  font-family: Iceberg;
+  font-weight: 700;
   margin: 20px auto 0;
 }
 
@@ -361,10 +360,6 @@
 
   .u-section-2 .u-image-2 {
     min-height: 598px;
-  }
-
-  .u-section-2 .u-group-1 {
-    margin-top: -521px;
   }
 
   .u-section-2 .u-text-1 {
@@ -383,11 +378,6 @@
 
   .u-section-2 .u-image-2 {
     min-height: 458px;
-  }
-
-  .u-section-2 .u-group-1 {
-    margin-top: -451px;
-    margin-bottom: 7px;
   }
 }
 
@@ -416,8 +406,6 @@
 
   .u-section-2 .u-group-1 {
     width: 540px;
-    margin-top: -909px;
-    margin-bottom: 60px;
   }
 
   .u-section-2 .u-container-layout-3 {
@@ -428,7 +416,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 {
-    min-height: 866px;
+    min-height: 868px;
   }
 
   .u-section-2 .u-image-1 {
@@ -440,9 +428,7 @@
   }
 
   .u-section-2 .u-group-1 {
-    min-height: 617px;
     width: 340px;
-    margin-top: -741px;
   }
 }.u-section-3 {
   background-image: none;
@@ -453,10 +439,10 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-family: Horsemen;
-  font-weight: 400;
+  font-family: Iceberg;
   animation-duration: 2000ms;
-  font-size: 3rem;
+  font-size: 3.75rem;
+  font-weight: 400;
   margin: 50px 0 0;
 }
 
@@ -502,7 +488,6 @@
 
 .u-section-3 .u-custom-html-1 {
   min-height: 100px;
-  height: auto;
   margin: 12px auto 0 265px;
 }
 
@@ -536,7 +521,6 @@
 
 .u-section-3 .u-custom-html-2 {
   min-height: 100px;
-  height: auto;
   margin: 12px auto 0 265px;
 }
 
@@ -570,7 +554,6 @@
 
 .u-section-3 .u-custom-html-3 {
   min-height: 100px;
-  height: auto;
   margin: 12px auto 0 265px;
 }
 
@@ -625,7 +608,9 @@
   }
 
   .u-section-3 .u-custom-html-1 {
-    margin-left: 65px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 274px;
   }
 
   .u-section-3 .u-text-5 {
@@ -646,7 +631,9 @@
   }
 
   .u-section-3 .u-custom-html-2 {
-    margin-left: 65px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 274px;
   }
 
   .u-section-3 .u-text-8 {
@@ -667,7 +654,9 @@
   }
 
   .u-section-3 .u-custom-html-3 {
-    margin-left: 65px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 274px;
   }
 
   .u-section-3 .u-social-icons-1 {
@@ -689,7 +678,7 @@
   }
 
   .u-section-3 .u-custom-html-1 {
-    margin-left: 0;
+    margin-left: 263px;
   }
 
   .u-section-3 .u-text-5 {
@@ -705,7 +694,7 @@
   }
 
   .u-section-3 .u-custom-html-2 {
-    margin-left: 0;
+    margin-left: 263px;
   }
 
   .u-section-3 .u-text-8 {
@@ -721,7 +710,7 @@
   }
 
   .u-section-3 .u-custom-html-3 {
-    margin-left: 0;
+    margin-left: 263px;
   }
 }
 
@@ -749,6 +738,10 @@
     margin-left: 0;
   }
 
+  .u-section-3 .u-custom-html-1 {
+    margin-left: 0;
+  }
+
   .u-section-3 .u-container-layout-2 {
     padding-right: 10px;
   }
@@ -769,6 +762,10 @@
   }
 
   .u-section-3 .u-text-7 {
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-custom-html-2 {
     margin-left: 0;
   }
 
@@ -794,23 +791,38 @@
   .u-section-3 .u-text-10 {
     margin-left: 0;
   }
+
+  .u-section-3 .u-custom-html-3 {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1918px;
+    min-height: 1753px;
   }
 
   .u-section-3 .u-text-1 {
     font-size: 2.25rem;
+    width: auto;
+  }
+
+  .u-section-3 .u-list-1 {
+    margin-top: 56px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    min-height: 2195px;
+    min-height: 1414px;
   }
 
   .u-section-3 .u-container-layout-1 {
     padding-bottom: 20px;
+  }
+
+  .u-section-3 .u-image-1 {
+    margin-right: 90px;
   }
 
   .u-section-3 .u-text-2 {
@@ -825,11 +837,14 @@
   .u-section-3 .u-custom-html-1 {
     width: 330px;
     margin-top: 13px;
-    margin-right: 0;
   }
 
   .u-section-3 .u-container-layout-2 {
     padding-bottom: 20px;
+  }
+
+  .u-section-3 .u-image-2 {
+    margin-right: 90px;
   }
 
   .u-section-3 .u-text-5 {
@@ -844,11 +859,14 @@
   .u-section-3 .u-custom-html-2 {
     width: 330px;
     margin-top: 13px;
-    margin-right: 0;
   }
 
   .u-section-3 .u-container-layout-3 {
     padding-bottom: 20px;
+  }
+
+  .u-section-3 .u-image-3 {
+    margin-right: 90px;
   }
 
   .u-section-3 .u-text-8 {
@@ -863,10 +881,17 @@
   .u-section-3 .u-custom-html-3 {
     width: 330px;
     margin-top: 13px;
-    margin-right: 0;
+  }
+
+  .u-section-3 .u-social-icons-1 {
+    margin-top: 1px;
+  }
+
+  .u-section-3 .u-text-11 {
+    margin-bottom: 56px;
   }
 }.u-section-4 {
-  background-image: url("images/FONDO-11.PNG");
+  background-image: url("images/AGRUPACION-FONDO.PNG");
   background-position: 50% 50%;
 }
 
@@ -875,11 +900,10 @@
 }
 
 .u-section-4 .u-text-1 {
-  font-family: Horsemen;
+  font-family: Iceberg;
   font-weight: 400;
-  font-size: 3rem;
-  animation-duration: 2000ms;
   width: 572px;
+  font-size: 3.75rem;
   margin: 84px auto 0;
 }
 
@@ -1321,7 +1345,6 @@
 
   .u-section-4 .u-text-1 {
     width: 540px;
-    margin-top: 67px;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -1476,8 +1499,9 @@
 }
 
 .u-section-5 .u-text-1 {
+  font-size: 3.75rem;
   font-family: Iceberg;
-  font-weight: 400;
+  font-weight: normal;
   margin: 91px 74px 0;
 }
 
@@ -1564,6 +1588,12 @@
     animation-duration: 1000ms;
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-text-1 {
+    font-size: 2.25rem;
   }
 }.u-block-778c-2 {
   position: absolute;
