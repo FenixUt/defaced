@@ -8643,7 +8643,7 @@ section.u-image,
   }
 }
 .u-valign-top {
-  justify-content: flex-start;
+  justify-content: center;
 }
 @media (min-width: 1200px) {
   .u-valign-top-xl {
